@@ -26,3 +26,22 @@
     height: 100px;
     margin: 30px auto;
 }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+.container{
+    background-color: royalblue;
+}
+.about-me{
+    font-size: 32px;
+    color: red;
+    background: beige;
+}
+.about{
+    background-color: black;
+    color: #fff;
+    font-size: 52px;
+}
