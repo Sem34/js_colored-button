@@ -4,44 +4,40 @@
 }
 .lcw{
     width: 70%;
-    margin: 20px auto;
-}
-.text-center{
-    text-align: center;
-}
-.button{
-    padding: 10px 30px;
-    border: 2px solid red;
-    border-radius: 3px;
-    color: red;
-}
-.button:hover{
-    background-color: green;
-    color: white;
-}
-.circle{
-    background-color: red;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
     margin: 30px auto;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
+.header{
+    text-align: center;
+}
+.header-text{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.header-button {
+    background-color: #000;
     color: #fff;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 0;
+    margin: 20px 0;
+
 }
-.container{
-    background-color: royalblue;
+.header-button:hover{
+    background-color: #ff0000;
 }
-.about-me{
-    font-size: 32px;
-    color: red;
-    background: beige;
+.transition {
+    transition: 1s;
 }
-.about{
-    background-color: black;
-    color: #fff;
-    font-size: 52px;
+.header-link{
+    display: none;
 }
+.header-link a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-link a:hover{
+    color: #ff0000;
+}
+
+
